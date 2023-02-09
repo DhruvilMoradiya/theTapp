@@ -2,19 +2,73 @@
 <html lang="en">
    <head>
       <meta charset="UTF-8" />
-      <link
-         rel="icon"
-         type="image/svg+xml"
-         href="/vite.svg" />
+      <meta
+         http-equiv="X-UA-Compatible"
+         content="IE=edge" />
       <meta
          name="viewport"
          content="width=device-width, initial-scale=1.0" />
-      <title>TheTapp</title>
+      <script src="https://cdn.tailwindcss.com"></script>
+
+      <title>Document</title>
    </head>
    <body>
-      <div id="root"></div>
-      <script
-         type="module"
-         src="/src/main.jsx"></script>
+      <section class="w-full flex flex-col items-center">
+         <h1 class="font-inter font-bold text-[40px] text-center mt-14">
+            TOP REACTING TEACHER
+         </h1>
+         <div class="flex flex-row gap-20 mt-14">
+            <div>
+               <div
+                  class="bg-blue-200 w-[500px] h-[760px] rounded-3xl flex items-center flex-col">
+                  <div
+                     class="border-8 h-[238px] w-[238px] border-black flex justify-center items-center rounded-full mt-20">
+                     <img
+                        class="h-[160px] w-[160px]"
+                        src="./gautam.png"
+                        alt="{name}" />
+                  </div>
+                  <h2 class="text-3xl font-inter font-bold mt-10">
+                     Gautam Gondaliya
+                  </h2>
+                  <h4 class="text-3xl font-inter font-bold mt-10">
+                     Electronics And Communications
+                  </h4>
+
+                  <div class="w-11/12 mt-44">
+                     <button
+                        class="border-2 border-black rounded-2xl w-full bg-white py-5 text-3xl font-inter font-bold">
+                        View Message
+                     </button>
+                  </div>
+               </div>
+            </div>
+
+            <div>
+               <div
+                  class="bg-blue-200 w-[500px] h-[760px] rounded-3xl flex items-center flex-col">
+                  <div
+                     class="border-8 h-[238px] w-[238px] border-black flex justify-center items-center rounded-full mt-20">
+                     <img
+                        class="h-[160px] w-[160px]"
+                        src="./ashfaq.png"
+                        alt="{name}" />
+                  </div>
+                  <h2 class="text-3xl font-inter font-bold mt-10">
+                     Manihar Ashfaq
+                  </h2>
+                  <h4 class="text-3xl font-inter font-bold mt-10">
+                     Electronics And Communications
+                  </h4>
+                  <div class="w-11/12 mt-44">
+                     <button
+                        class="border-2 border-black rounded-2xl w-full bg-white py-5 text-3xl font-inter font-bold">
+                        View Message
+                     </button>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
    </body>
 </html>
